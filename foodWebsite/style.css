@@ -1,0 +1,592 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 130vh;
+}
+
+.container img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.T-left,
+.T-right,
+.B-middle
+{
+    position: absolute;
+    padding: 2rem;
+    color: white;
+}
+
+.T-left{
+    top: 2.5rem;
+    left: 2.3rem;
+}
+
+.T-right{
+    top: 1rem;
+    right: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.T-right input[type="text"] {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.T-left a{
+    display: block;
+    margin-bottom: 25px;
+    font-size: 45px;
+    text-decoration: none;
+}
+
+.T-left p{
+    font-size: 18px;
+    color: #ff5c00;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.T-right a:hover{
+    color: #ff5c00;
+}
+
+.B-middle{
+    bottom: 0.01rem;
+    left: 30rem;
+}
+
+
+
+.website-name{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 12px;
+    font-size: 19px;
+}
+
+.order-button{
+    display: inline-block;
+    background-color: #ff5c00;
+    color: #fff;
+    padding: 5px 5px ;
+    margin-left: 120px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.order-button:hover{
+    color: #1a0a01;
+
+}
+
+.B-middle h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+/*middle part of the page*/
+
+.durk{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.durk img{
+    height: 600px;
+    margin-left: 660px;
+
+}
+.durk .T-left2{
+    bottom: -600px;
+    position: absolute;
+    padding: 4rem;
+    color: white;
+}
+
+.T-left2{
+        display: block;
+        margin-bottom: 25px;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    
+    .T-left2 p{
+        
+        font-size: 20px;
+        font-family:  Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    /*the third image*/
+    .Tjay{
+        margin-top: 57px;
+    }
+
+    .Tjay img{
+        margin-left: 100px;
+        
+    }
+.Tjay h1{
+    margin-top: -600px;
+    margin-left: 600px;
+    font-size: 30px;
+    color: #ff5c00;
+}
+.Tjay h2{
+   
+    margin-left: 600px;
+    font-size: 100px;
+}
+
+/** forth image*/
+
+.wiz{
+    margin-top: 138px;
+    margin-bottom: -100px;
+    height: 700px;
+    background-color: #ff5c00;
+}
+ .wiz img{
+    margin-left: 880px;
+    margin-top: 50px;
+ }
+
+ .wiz h1{
+    margin-top: -350px;
+    margin-left: 280px;
+    font-size: 30px;
+    color: #faf3ef;
+}
+.wiz h2{
+   
+    margin-left: 280px;
+    font-size: 60px;
+}
+
+.wiz h3{
+    margin-left: 280px;
+    font-size: 30px;
+    color: #f3edea;
+}
+
+/* down part */
+.bobby{
+    margin-right: 800px;
+    background-color: black;
+    height: 160px;
+    width: 100%;
+    margin-top: 100px;
+    right: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+}
+
+.bobby input[type="text"] {
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+    font-size: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.bobby h1{
+    margin-right: 100px;
+    margin-top: 15px;
+    color: #f3edea;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+}
+   
+.bobby nav{
+    margin-right: 800px;
+    margin-bottom: -50px;
+   
+}
+
+.bobby nav a{
+    margin-bottom: 30px;
+}
+
+
+.bobby a:hover{
+    color: #ff5c00;
+}
+
+.bobby .bob{
+    color: white;
+     margin-right: 400px;
+    
+}
+
+.bobby i{
+    color: white;
+   margin: 9px;
+}
+
+.bobby i:hover{
+    color: #ff5c00;
+}
+
+
+/* Contact**/
+
+
+.lambo{
+    position: relative;
+    width: 100%;
+    height: 724px;
+}
+
+
+.lambo img{
+    object-fit: cover;
+    width: 1345px;
+    height: 500px;
+}
+
+.lam-left,
+.lam-right
+{
+    position: absolute;
+    padding: 2rem;
+    color: white;
+}
+
+.lam-left{
+    top: 2.5rem;
+    left: 2.3rem;
+}
+
+.lam-right{
+    top: 1rem;
+    right: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.lam-right input[type="text"] {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.lam-left a{
+    display: block;
+    margin-bottom: 25px;
+    font-size: 45px;
+    text-decoration: none;
+}
+
+.lam-left p{
+    font-size: 18px;
+    color: #ff5c00;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.lam-right a:hover{
+    color: #ff5c00;
+}
+
+.lamsite-name{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 12px;
+    font-size: 19px;
+}
+
+
+.maths{
+   
+    margin-left: 380px;
+    margin-top: -220px ;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: white;
+    text-decoration: dotted;
+}
+
+.english{
+    margin-left: 400px;
+    margin-top: 150px;
+}
+
+.english h1{
+    font-size: 45px;
+}
+
+.english p{
+    margin-left: -100px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+/**form*/
+
+.ferrari{
+    margin-top: 30px;
+    margin-left: 400px;
+    display: flex;
+    height: 500px;
+    
+}
+
+
+
+
+input{
+    width: 200px;
+    padding: 10px;
+    border-radius: 1px;
+    border: 0;
+    color: black;
+}
+
+input ::placeholder{
+    border-color: black;
+}
+
+
+label {
+    margin-top: 100px;
+    color: dimgray;
+    font-size: 13px;
+}
+
+textarea{
+    height: 300px;
+    width: 200px;
+}
+
+button{
+  
+    width: 120px;
+    padding: 9px;
+    color: black;
+    border: 0;
+    cursor: pointer;
+}
+
+button:hover{
+    color: #ff5c00;
+}
+
+
+.box {
+    position: absolute;
+    top: 770px;
+    left: 900px;
+    transform: translate(-50%, -50%);
+  }
+  
+  .box select {
+    background-color: transparent;
+    color: black;
+    padding: 12px;
+    width: 100px;
+    border: none;
+    font-size: 17px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+  }
+  
+ 
+  .box select option {
+    padding: 30px;
+  }
+
+
+  /**menu**/
+
+  
+.conn{
+    position: relative;
+    width: 100%;
+    height: 524px;
+    margin-bottom: -75px;
+    background-color: black;
+   
+}
+
+.conn img{
+    width: 200px;
+    height: 140px;
+    margin-top: 200px;
+    margin-left: 560px;
+}
+
+
+.con-left,
+.con-right,.nextion
+{
+    position: absolute;
+    padding: 2rem;
+    color: white;
+}
+
+.con-left{
+    top: 2.5rem;
+    left: 2.3rem;
+}
+
+.con-right{
+    top: 1rem;
+    right: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.con-right input[type="text"] {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.con-left a{
+    display: block;
+    margin-bottom: 25px;
+    font-size: 45px;
+    text-decoration: none;
+}
+
+.con-left p{
+    font-size: 18px;
+    color: #ff5c00;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+
+.con-right a:hover{
+    color: #ff5c00;
+}
+
+.connsite-name{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 12px;
+    font-size: 19px;
+}
+
+.nection{
+    bottom: 0.01rem;
+    margin-left: 480px;
+}
+.nection h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 8px;
+    margin-left: 30px;
+}
+
+
+
+.menu-foods{
+    
+    max-width: 1225px;
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+    height: 1100px;
+    background-color: white;
+}
+
+.gallery{
+    margin-top: 100px;
+    display: flex;
+    gap: 10px;
+    transition: 1s;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title-menu-foods{
+    margin-left: 550px;
+    margin-top: 55px;
+    color: #ff5c00;
+    font-size: 50px;
+    text-decoration: underline solid;
+
+}
+
+.photo img{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-left: 70px;
+
+}
+
+.photo img:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+
+/**Abou Us*/
+
+.karma{
+    height: 200px;
+
+}
+
+.karma h1{
+    margin-left: 300px;
+}
+
+.karma p{
+    margin-left: 200px;
+}
